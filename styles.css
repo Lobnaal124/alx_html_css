@@ -38,11 +38,10 @@ table {
     height: 60px;
     width: 100%;
     background-color: #333;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    display:inline-block;
+    padding: 0 10px;
     text-decoration: none;
+   
   }
   
   .navbar a {
@@ -71,7 +70,9 @@ table {
     /* Set the color for the active menu item link */
     color: #ccc;
   }
- 
+ ul{
+    list-style-type:none;
+ }
   /* Make both body and main flex containers
 body, main {
     display: flex;
@@ -109,5 +110,13 @@ body, main {
     article, aside {
       flex: 1; /* Make article and aside take up full width on small screens */
     }
+  }
+  .logo {
+    font-size: 3em;  /* Increase font size for logo */
+    color: #af5d5ddf;  
+    display: inherit;
+    float: right;
+    align-items: center;
+    margin-right: 10px;
   }
   
